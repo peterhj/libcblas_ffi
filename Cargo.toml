@@ -1,0 +1,15 @@
+[package]
+name = "cblas_ffi"
+version = "0.1.0"
+authors = ["Peter Jin <peterhaijin@gmail.com>"]
+license = "BSD-2-Clause"
+description = "CBLAS FFI bindings."
+repository = "https://github.com/peterhj/libcblas_ffi"
+keywords = ["blas", "cblas"]
+
+[lib]
+name = "cblas_ffi"
+path = "src/lib.rs"
+
+[dependencies]
+libc = "^0.2"
